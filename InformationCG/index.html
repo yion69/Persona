@@ -1,0 +1,815 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <head>
+        <nav class="navbar navbar-expand-md" id="navBar">
+            <div class="container my-5">
+                <a href="#" class="navbar-brand " id="navBrand">
+                    <span>
+                        <img src="../assets/logo.svg" alt="logo" style="width: 50px;">
+                    </span>
+                    <span class="h3">
+                        Persona
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">Home</a>
+                            <ul class="dropdown-menu" id="homeDropdown">
+                                <li><a href="../16personalities/index.html" class="dropdown-item fw-bold">16 Personality Types</a></li>
+                                <li><hr class="dropdown-divider"></hr></li>
+                                <li><a href="../CognitiveFunctions/index.html" class="dropdown-item fw-bold">Cognitive Funcitons</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../About/index.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Contact/index.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <form role="search" class="d-flex input-group my-auto ms-auto w-50 d-none d-md-flex">
+                        <input type="search" class="form-control outline-dark" placeholder="Search">
+                        <button class="btn btn-outline-dark  input-group-append" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                        </button>
+                        <button class="btn btn-dark btn-lg">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div   >
+        </nav>
+    </head>
+    <section>
+
+        <div class="container" style="position: relative;">
+        <button class="btn btn-floating btn-lg hstack" id="scrollUp">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="topButton"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z"/></svg>
+            </span>
+        </button>   
+            <div class="container mb-5 border-bottom border-3 border-dark infoRow">
+                <h1 class="display-4 ms-3 pb-3">Analysts</h1>
+                <div class="card mb-3" id="intj">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">INTJ: The Architect (Introverted, Intuitive, Thinking, Judging)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/intj-architect.png" alt="INTJ" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">INTJ subtypes</h1>
+                                <p class="text">
+                                    <b>INTJ-A:</b> This subtype is known as the "Assertive Architect." An INTJ-A tends to have more self-confidence than an INTJ-T, particularly when handling life's ups and downs. And if things don't go the way they expect, an INTJ-A is not likely to second-guess their initial actions or experience regret.
+                                </p>
+                                <p class="text">
+                                    <b>INTJ-T:</b> Someone with this subtype is known as the "Turbulent Architect" and has a greater concern about the areas where they may fall short, whether in reality or perception. They also tend to use this concern to their advantage by pushing themselves harder and paying more attention to detail.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key INTJ Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            INTJs tend to be introverted and prefer to work alone. They're self-confident and hard-working, which is a strength. However, it can also be a weakness as they may come across as insensitive or callous.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            An INTJ looks at the big picture and likes to focus on abstract information rather than concrete details. They also tend to be a perfectionist.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Someone with an INTJ personality places greater emphasis on logic and objective information rather than subjective emotions. Talking about emotions makes them uncomfortable.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            INTJs like a world with control and order. As a result, they prefer to make plans well in advance. Some INTJs may even employ manipulation to get a specific outcome.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="intp">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">INTP:Logician (Introverted, Intuitive, Thinking, Perceiving)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/intp.png" alt="INTJ" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">INTP subtypes</h1>
+                                <p class="text">
+                                    <b>INTP-A:</b> Known as the "Assertive Logician," this subtype tends to be more comfortable with themselves and more confident than an INTP-T. They are also more satisfied with where they are in life.
+                                </p>
+                                <p class="text">
+                                    <b>INTP-T:</b> This subtype is referred to as the "Turbulent Logician" and, when compared to an INTP-A, feels less comfort both personally and in terms of their current life. They also tend to be slightly less confident.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key INTP Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            INTPs are quiet, reserved, and thoughtful. As introverts, they prefer to socialize with a small group of close friends with whom they share common interests and connections.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            An INTP enjoys thinking about theoretical concepts and tends to value intellect over emotion. They are logical and base decisions on objective information rather than subjective feelings.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            When analyzing data and making decisions, an INTP is highly logical and objective.INTPs tend to be flexible and good at thinking "outside of the box."
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            People with the INTP personality type think about the big picture rather than focusing on every tiny detail.INTPs like to keep their options open and feel limited by structure and planning.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="entj">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ENTJ: The Commander (Extraverted, Intuitive, Thinking, Judging)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/entj.png" alt="INTJ" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ENTJ subtypes</h1>
+                                <p class="text">
+                                    <b>ENTJ-T:</b> Seeks validation and attention; tends toward anger and jealousy; emotionally driven; more sensitive, sentimental, and affectionate than ENTJ-A.
+                                </p>
+                                <p class="text">
+                                    <b>ENTJ-A :</b> Confident; assumes others' acceptance; less emotionally reactive; handles stress and negativity well
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ENTJ Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            People with this personality type enjoy spending time with other people. They have strong verbal skills and interacting with others helps them feel energized.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENTJ types prefer to think about the future rather than focus on the here-and-now. They usually find abstract and theoretical information more interesting than concrete details.When making decisions, ENTJs place a greater emphasis on objective and logical information. Personal feelings and the emotions of others tend not to factor much into their choices.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENTJs are planners. Making decisions and having a schedule or course of action planned out gives them a sense of predictability and control.They are highly rational, good at spotting problems, and excel at taking charge. These tendencies make them natural leaders who are focused on efficiently solving problems.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENTJs are not necessarily good with emotions, but that does not mean they are intentionally cruel. They are prone to hiding their own emotions and sentimentality, viewing it as a weakness that should not be made known to others.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="entp">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ENTP: The Debater (Extroverted, Intuitive, Thinking, Perceiving)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/entp.png" alt="ENTP" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ENTP subtypes</h1>
+                                <p class="text">
+                                    <b>ENTP-A:</b> They seek approval, agreement, and attention, and often feel anger, jealousy, or envy. Their behavior is more emotionally driven than ENTP-As.
+                                </p>
+                                <p class="text">
+                                    <b>ENTP-T:</b> More confident than ENTP-Ts, ENTP-As assume that people accept them and aren't as interested as ENTP-Ts in discussing their feelings. They tend to be less emotionally reactive.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ENTP Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENTPs enjoy interacting with a wide variety of people. They are great conversationalists and love to engage other people in debates.They are more focused on the future rather than on immediate details. They may start projects and never finish them because they are so focused on the big picture rather than the present needs.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENTPs enjoy being around other people, particularly if they are able to engage in a conversation or debate about something in which they are interested. They are usually fairly laid-back and easy to get along with. However, they can sometimes get so wrapped up in their ideas or plans that they lose sight of their close relationships.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            They tend to reserve judgment. Instead of making a decision or committing to a course of action, they would prefer to wait and see what happens.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENTPs are immensely curious and focused on understanding the world around them. They are constantly absorbing new information and ideas and quickly arriving at conclusions. They are able to understand new things quite quickly.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mb-5 border-bottom bordker-3 border-dark infoRow">
+                <h1 class="display-4 ms-3 pb-3">Diplomats</h1>
+                <div class="card mb-3" id="infj">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">INFJ:Advocate (Introverted, Intuitive, Feeling, Judging)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/infj.png" alt="INTJ" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">INFJ subtypes</h1>
+                                <p class="text">
+                                    <b>INFJ-A:</b> These are more confident and relaxed advocates in their interactions with society and events. They do not rush in situations but rather have to analyze everything not allowing themselves to be carried out by emotions. Unlike their turbulent counterparts, they end up offering the best solutions to problems.
+                                </p>
+                                <p class="text">
+                                    <b>INFJ-T:</b> These people are known for their high sensitivity to external stressors. Simply referred to as INFJ T, they tend to get deeply immersed in the issues they want to solve and, as a result, get themselves consumed.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key INFJ Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Compassionate: With their strong sense of intuition and emotional understanding, INFJs can be soft-spoken and empathetic. This does not mean that they are pushovers, however. INFJs have deeply held beliefs and the ability to act decisively to get what they want.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Helper: While they are introverted by nature, people with an INFJ personality type can form strong, meaningful connections with other people. They enjoy helping others, but they also need time and space to recharge.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                           Idealist: What sets the INFJ apart is their ability to translate their idealism into action. They don't just dream about changing the world—they make it happen.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Both emotional and logical: When making decisions, INFJs place a greater emphasis on their emotions than objective facts. But this doesn't mean they see the world through rose-colored glasses. INFJs understand the world, both the good and the bad, and hope to be able to make it better.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="infp">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">INFP:Mediator (Introverted, Intuitive, Feeling, Perceiving)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/infp.png" alt="INFP" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">INFP subtypes</h1>
+                                <p class="text">
+                                    <b>INFP-A:</b> They have a sunny, optimistic outlook, making them a good source of hope and encouragement. However, this tendency to ignore the things they shrug off may cause them to overlook problems since they think that everything is going fine.
+                                </p>
+                                <p class="text">
+                                    <b>INFP-T:</b> Turbulent mediators tend to be dissatisfied with their current state and use this dissatisfaction to improve themselves. They are likely to hold themselves to a very high standard and end up becoming overwhelmed.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key INFP Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            INFPs are known to be introverted, quiet, and reserved. Being in social situations can drain their energy, and they prefer interacting with a select group of close friends. While they like to be alone, this should not necessarily be confused with shyness.1 Instead, it simply means that INFPs gain energy from spending time alone. On the other hand, they have to expend energy in social situatio
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            INFPs typically rely on intuition and are more focused on the big picture rather than the nitty-gritty details. They can be quite meticulous about things they really care about or projects they are working on but tend to ignore mundane or boring details.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            When it comes to making decisions, INFPs like to keep their options open. They often delay making important decisions just in case something about the situation changes. When decisions are made, they are usually based on personal values rather than logic.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="enfj">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ENFJ:Protagonist Extraverted, Intuitive, Feeling, Judging</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/enfj.png" alt="ENFJ" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ENFJ subtypes</h1>
+                                <p class="text">
+                                    <b>ENFJ-A:</b> One of the stark differences between the Assertive ENFJs and the Turbulent ENFJs is their confidence. Compared to Turbulent ENFJs, Assertive ENFJs are more confident overall and do well in leadership roles.They experience less self-doubt and tend to not take things too personally. This allows them to be bold and independent. Enabling them to handle negative emotions and stress with a calm mind.However, this comes with a price of reduced ability to relate to others and be empathetic. Assertive ENFJs also tend to be more independent.
+                                </p>
+                                <p class="text">
+                                    <b>ENFJ-T:</b> The Turbulent ENFJs often experience self-doubt. They tend to personalize more things compared to the Assertive ENFJs. Because they value the opinions and appreciation of others, they tend to be conscious of how others perceive them.Although the lack of confidence may seem like a flaw, because they are less confident, their humility makes the Turbulent ENFJs humble leaders. Turbulent ENFJs may sometimes be overwhelmed by negative emotions and stress.This allows them to empathize more deeply with others in similar situations. Turbulent ENFJs are not the best decision-makers as they tend to act based on their emotions.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ENFJ Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENFJs are strong extraverts and enjoy spending time with other people. Because of this, they are rarely lonely. They have great people skills and are often warm, affectionate, and supportive. ENFJs are great at encouraging others and derive personal satisfaction from helping others.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENFJs are not selfish and are often so interested in devoting their time to others that they can neglect their own needs. They also tend to be too hard on themselves, blaming themselves for when things go wrong and not giving themselves enough credit when things go right. Because of this, people with this personality type must regularly set aside time to attend to their needs.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENFJs are good at bringing consensus among diverse people. For this reason, they can be outstanding leaders and bring enthusiasm to a group that can be motivating and inspirational.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="enfp">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ENFP:Campaigner (Extroverted, Intuitive, Feeling, Perceiving)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/enfp.png" alt="ENFP" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ENFP subtypes</h1>
+                                <p class="text">
+                                    <b>ENFP-A:</b> Someone who is an ENFP-A is also known as an "Assertive Campaigner." This ENFP subtype tends to be more confident and has more emotional control in their relationships.
+                                </p>
+                                <p class="text">
+                                    <b>ENFP-T:</b> ENFP-Ts are known as "Turbulent Campaigners" and often have less confidence and less emotional control, also experiencing more anxiety when dealing with everyday stress.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ENFP Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ENFPs have excellent people skills. In addition to having an abundance of enthusiasm, they genuinely care about others and are good at understanding what people are feeling. This can make them attractive to be around.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Given their zeal, charisma, and creativity, ENFPs can make great leaders. They are flexible and like to keep their options open. ENFPs can be spontaneous and highly adaptable to change.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            People with an ENFP personality type strongly dislike routine and prefer to focus on the future. They can become easily distracted, particularly when working on something that seems boring or uninspiring.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            While ENFPs are great at generating new ideas, their weaknesses can include putting off important tasks until the last minute and being disorganized. Dreaming up ideas but not seeing them through to completion is a common issue for an ENFP.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-5 border-bottom border-3 border-dark infoRow">
+                <h1 class="display-4 ms-3 pb-3">Sentinals</h1>
+                <div class="card mb-3" id="istj">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ISTJ:Logistician (Introverted, Sensing, Thinking, Judging)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/istj.png" alt="ISJJ" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ISTJ subtypes</h1>
+                                <p class="text">
+                                    <b>ISTJ-A:</b> “Activist”- They are known for being practical and realistic, often preferring to focus on facts and data to make decisions.They are also known for being very detail-oriented and focused on the present moment. They have a strong sense of morals, ethics, and responsibility but prefer not to reflect too much about their own emotions or internal desires.
+                                </p>
+                                <p class="text">
+                                    <b>ISTJ-T:</b> “Traditionalist”- is all about tradition, routine, and security. They are typically dependable and serious individuals who enjoy helping others reach their goals by providing them with a sense of order.This personality type has an uncanny ability to recall almost everything they have ever learned in the past. ISTJ-T -“Traditionalist”- tends to be pessimistic and is usually not very open to new ideas.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ISJJ Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            They like to carefully plan things out well in advance. They enjoy an orderly life. They like things to be well-organized and pay great attention to detail. When things are in disarray, people with this personality type may find themselves unable to rest until they have set everything straight and the work has been completed.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            They take a logical approach to achieving their goals and completing projects and can work steadily toward accomplishing these tasks. They can ignore distractions to focus on the task at hand and are often described as dependable and trustworthy.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                           They prefer to follow rules and procedures that have previously been established. In some cases, ISTJs can seem rigid and unyielding in their desire to maintain structure.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="isfj">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ISFJ:Defender (Introverted, Sensing, Feeling, Judging)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/isfj.png" alt="ISFJ" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ISFJ subtypes</h1>
+                                <p class="text">
+                                    <b>ISFJ-A:</b> While both types are quick to take on responsibilities, assertive types find it easier to let go of worries when they recognize their lack of control over the situation compared to their turbulent peers.They have the ability to focus on more positive aspects, although this kind of outlook might cause them to miss important details or potential problems.While both types are unlikely to seek credit or recognition, the more confident assertive types get themselves out there than their critical counterparts.This leads this subtype to be more visible and consequently have higher reports of recognition and awards.
+                                <p class="text">
+                                    <b>ISFJ-T:</b> While ISFJs are generally observant, ISFJ-Ts are keener with details and are quicker than their assertive counterparts to detect problems or sense emotional unrest in people.On the negative side, this high perceptiveness of turbulent types paired with their high degree of responsibility may consume them, especially if they would not be able to manage the problems that they see.Their high expectations of themselves along with eyes that see things that need improvement around them may lead ISFJ-Ts to self-blame and frustration.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ISFJ Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            One of their greatest strengths is their ability to notice the people and events happening around them. While people with this personality type are introverted and tend to be quiet, they are keen observers and focused on others. Because they are so perceptive, ISFJs are good at remembering details about other people.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            While ISFJs are good at understanding their own emotions, they often struggle to express them. Rather than share their feelings, they may bottle them up, sometimes to the point that negative feelings toward other people can result.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            An ISFJ practicality can be another key strength, but it can also be a weakness when it limits their ability to consider new ideas. People with this personality prefer concrete facts over abstract theories. As a result, they tend to learn best by doing.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ISFJs enjoy structure and strive to maintain this order in all areas of their lives. They thrive in highly structured and consistent environments where they are given step-by-step instructions and clear expectations.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="estj">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ESTJ: The Director (Extraverted, Sensing, Thinking, Judging)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/estj.png" alt="ESTJ" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ESTJ subtypes</h1>
+                                <p class="text">
+                                    <b>ESTJ-T:</b> Turbulent Executives- This personality type is more emotionally reactive and easily irritated. This is most usually the result of a defensive rather than an aggressive approach.Turbulent executives are under more pressure to conform. This stress might cause these people to become more sensitive to the needs of others.Turbulent ESTJs also require the company of others. However, they have a more difficult time understanding friendship than ESTJ-As do. The reason for this is because they are more sensitive to the needs of others, which makes them fearful of disappointing their friends.
+                                </p>
+                                <p class="text">
+                                    <b>ESTJ-A :</b> Assertive Executives- People of this kind are more inclined to believe themselves purposeful than Turbulent Executives. On closer inspection, however, both personality types have a strong concentration and are goal-oriented.When it comes to emotions, assertive executives are more relaxed. As a result, they may look less sensitive and careless. However, it is likely that it also makes individuals more willing to forgive.They adhere to regulations, are patient employees, and never allow emotions to influence decision-making.Assertive executives are more likely to want companionship than require it. Viewing social engagement as a delightful choice helps them to appreciate the people in their lives while keeping their more efficient, autonomous decision-making abilities.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ESTJ Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Individuals with this personality type tend to place a high value on tradition, rules, and security. Maintaining the status quo is important to ESTJs, and they often become involved in civic duties, government branches, and community organizations.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Because of their orthodox approach to life, an ESTJ can sometimes be seen as rigid, stubborn, and unyielding. Their take-charge attitude makes it easy for ESTJs to assume leadership positions.Their self-confidence and strong convictions help ESTJs excel at putting plans into action. However, at times, they can appear critical and overly aggressive—particularly when other people fail to live up to their high standards.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            People often describe ESTJs as predictable, stable, committed, and practical. They tend to be very frank and honest when it comes to sharing their opinions, which can sometimes be seen as harsh or overly critical.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="esfj">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ESFJ:The Caregiver (Extroverted, Sensing, Feeling, Judging)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/esfj.png" alt="ESFJ" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ESFJ subtypes</h1>
+                                <p class="text">
+                                    <b>ESFJ-A:</b> Someone who is an ENFP-A is also known as an "Assertive Campaigner." This ENFP subtype tends to be more confident and has more emotional control in their relationships.
+                                </p>
+                                <p class="text">
+                                    <b>ESFJ-T:</b> ENFP-Ts are known as "Turbulent Campaigners" and often have less confidence and less emotional control, also experiencing more anxiety when dealing with everyday stress.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ESFJ Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            People with an ESFJ personality type tend to be sensitive to the needs and feelings of others. They derive their value system from external sources, including the community at large, rather than from intrinsic, ethical, and moral guidelines
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ESFJs enjoy helping others, they expect their kind and giving ways to be noticed and appreciated by others.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ESFJs get easily hurt by unkindness or indifference, they have a need for approval but they provide care for others and want to be liked by others.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-5 infoRow">
+                <h1 class="display-4 ms-3 pb-3">Explorers</h1>
+                <div class="card mb-3" id="istp">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ISTP:Virtuosos (Introverted, Sensing, Thinking, Perceiving)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/istp.png" alt="ISTP" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ISTP subtypes</h1>
+                                <p class="text">
+                                    <b>ISTP-A:</b> Assertive Virtuosos are confident about their skills and knowledge. Due to their strong self-confidence, they don’t hesitate to state their opinions firmly and publicly even in front of strangers. They maintain a sense of control over their lives even when they are faced with overwhelming problems.
+                                </p>
+                                <p class="text">
+                                    <b>ISTP-T:</b> Turbulent Virtuosos are very curious people. They have a strong desire to explore the world around them and enjoy trying new activities or developing new hobbies. Growth is one of the major motivators for turbulent ISTPs, they aren’t satisfied with their current selves and always try to develop new skills or learn new things.Turbulent virtuosos have better communication skills compared to assertive ones.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ISTP Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Goal-directed: People with an ISTP personality are results-oriented. When there is a problem, they want to quickly understand the underlying cause and implement some type of solution.They prefer to make judgments based on objective criteria rather than personal beliefs or values.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Open to new experiences: ISTPs enjoy new experiences and may often engage in thrill-seeking or risk-taking behaviors. They often engage in risky or fast-paced hobbies such as motorcycling, hang gliding, bungee jumping, surfing, or ice hockey. In some cases, they may seek out adventure by choosing careers in areas such as racing, flying, or firefighting.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                           Emotionally detached: ISTPs are not well attuned to the emotional states of others, and they can sometimes be seen as cold, unfeeling, or insensitive. They also distance themselves from their own emotions, ignoring their feelings until they become overwhelming.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Reserved but even-tempered: ISTPs are often described as quiet but with an easygoing attitude towards others. They can be talkative at work or in settings where they have a great deal in common with others.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="isfp">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ISFP:The Artist (Introverted, Sensing, Feeling, Perceiving)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/isfp.png" alt="ISFP" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ISFP subtypes</h1>
+                                <p class="text">
+                                    <b>ISFP-A:</b> ISFP-As are more likely to express their spontaneity and hunger for adventure and thus are likely to explore and engage the world more than the ISFP-Ts. Assertive types feel in control of the situation and are also confident with their responsibilities. They are independent spirits who exercise their freedom and are more unlikely to wait for permission to act than their turbulent counterparts whose sensitivity allows them to work better in teams and collaborative situations than ISFP-As.
+                                </p>
+                                <p class="text">
+                                    <b>ISFP-T:</b> ISFP-Ts are adventurers who prefer to explore within their comfort zones. While they have a lot to offer, turbulent types may feel incapable and unsure of their output or ideas.They also tend to feel incompetent and maybe cautious in taking in responsibilities. However, this conscientiousness may lead ISFP-Ts to perform better and produce results with excellent quality.ISFP-Ts report feeling comfortable about themselves compared to turbulent types of other personalities.
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ISFP Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            They're kind, friendly, and sensitive, with an easygoing attitude. They tend to accept other people as they are. Their quiet calmness lends itself to tasks that require care and focus. They spend more time thinking about the here and now than worrying about the future. They tend to be doers rather than dreamers.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            ISFPs don't do well with abstract theories unless they can see some type of practical application. They excel at projects and in learning situations that involve hands-on activity. They like to keep their options open, so they often delay making decisions to see if things change or new options arise.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Although this can be a positive in many situations, it also means they tend to bury issues rather than deal with them head-on. They typically need space and "alone time" after interacting with others.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="estp">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ESTP:Entrepreneur (Extraverted, Sensing, Thinking, Perceiving)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/estp.png" alt="ESTP" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ESTP subtypes</h1>
+                                <p class="text">
+                                    <b>ESTP-T:</b> The ESTP-T personality type is a true entrepreneur. They are natural risk-takers and enjoy the thrill of exploring new ideas, but they’re also practical enough to know that not every idea will work out. If an idea does fail, it’s because they tried their best and learned from the experience. Some people might call them stubborn or insensitive – but in truth, these qualities make them great entrepreneurs who can get things done without worrying about social niceties or small details.
+                                </p>
+                                <p class="text">
+                                    <b>ESTP-A :</b> The ESTP-A is most likely to be assertive, innovative, spontaneous, quick thinking, and generally goal-oriented. They know how to get what they want in life by utilizing the tools at hand or finding new ones that work better for them. They are usually highly competitive and need to “win.” When it comes to impulsive behaviors, the ESTP-A will do anything for excitement.
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ESTP Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Make decisions quickly: When confronted by problems, people with this personality type quickly look at the facts and devise an immediate solution. They tend to improvise rather than spend a great deal of time planning.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Prefer the practical over the abstract: ESTPs don't have a lot of use for abstract theories or concepts. They are more practical, preferring straightforward information that they can think about rationally and act upon immediately.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Have strong social skills: They are very observant, often picking up on details that other people never notice. Other people sometimes describe them as "fast-talkers" who are highly persuasive. In social settings, they often seem like they are a few steps ahead of the conversation.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            Act impulsively at times: ESTPs are not planners. They react in the moment and can often be quite impulsive or even risk-taking. This 'leap before they look' attitude can be problematic at times and it may lead them to say or do things they regret.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" id="esfp">
+                    <div class="card-header">
+                        <h2 class="display-6 fs-3">ESFP:Entertainer (Extraverted, Sensing, Feeling, Perceiving)</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-12">
+                                <img src="../assets/esfp.png" alt="ESFP" class="img-fluid" style="max-height: 300px;">
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-5">
+                                <h1 class="h5">ESFP subtypes</h1>
+                                <p class="text">
+                                    <b>ESFP-A:</b> Personality types are assertive entertainers who live in the moment. They enjoy being spontaneous and often take risks. ESFPs have a desire to be around people, making them fun and friendly companions. They love to connect with others through their senses and creativity. However, the ESFP-A can stumble if they don’t know what they want. The ESFP-A personality type thrives on variety and so will not be content with being stuck in the same routine for too long without any change, which may make them a little restless at times. They are often good problem solvers who excel during brainstorming sessions due to their ability to come up with many creative solutions quickly before anyone else has had time to think of one.
+                                </p>
+                                <p class="text">
+                                    <b>ESFP-T:</b> Turbulent entertainers (ESFP-T) are the life of the party and love to have fun. They’re spontaneous, energetic, and highly social. ESFPs like variety in their lives and want to experience as much as possible. This personality type is often called “spontaneous” or “dramatic.” It can also be described as dynamic, flexible, enthusiastic, expressive, outgoing, and gregarious. Turbulent Entertainers are drawn more strongly than other types to acting out for attention; they are also more prone than average to being irresponsible on occasion – not because they’re lazy but because they don’t understand what it means when things need doing now
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 mt-3">
+                                <h1 class="h5">Key ESFP Characteristics</h1>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            They are practical and resourceful. ESFPs prefer to learn through hands-on experience and tend to dislike book learning and theoretical discussions. Because of this, students with ESFP personality types sometimes struggle in traditional classroom settings. However, they excel in situations where they are allowed to interact with others or learn through direct experience.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            They figure things out as they go along. ESFPs live very much in the here-and-now and sometimes fail to think about how current actions will lead to long-term consequences. They will often rush into a new situation and figure things out as they happen. They also tend to dislike routine, enjoy new experiences, and are always looking for a new adventure.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            They are very understanding. ESFPs are perceptive when it comes to other people. They are able to sense what others are feeling and know how to respond. People tend to find them warm, sympathetic, and easygoing.
+                                        </p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="text listText">
+                                            They are fun-loving. While ESFPs do not shun the spotlight, they are more interested in simply living in the present and doing what feels right at that moment.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+<footer class="container-fluid">
+    <div class="container d-flex flex-column" id="footerDiv">
+        <section>
+            <div class="container w-100">
+                <p class="text">&copy;Copyright 2024 MBTI-Info Pte Ltd. All rights reserved.</p>
+            </div>
+        </section>
+        <section class="d-flex pb-3" id="footerLink">
+            <a href="#" class="btn mt-1 mx-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style="width: 40px;"><path d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"/></svg>
+            </a>
+            <a href="#" class="btn mx-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" style="width: 40px;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+            </a>
+            <a href="#" class="btn mx-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 37px;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            </a>
+            <a href="#" class="btn mx-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 40px;"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+            </a>
+        </section>
+    </div>
+</footer>
+</html>
