@@ -1,0 +1,98 @@
+#biPerson {
+    margin-bottom: 4px;
+}
+#navBrand {
+    font-size: 2rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+#navBrand:hover {
+    color: #000080;
+}
+#navContent {
+    font-size: 20px;
+}
+
+#homeDropdown  a {
+    color: black;
+}
+#homeDropdown a:hover {
+    color: #444;
+}
+
+#containerFluid {
+    padding-left: 10%;
+}
+
+#informationContainer {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: larger;
+}
+#contactBox div{
+    display: flex;
+    justify-content: center;
+}
+
+#contactForm {
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#contactBox input {
+    height: 50px;
+    width: 85%;  
+    font-size: 20px;
+}
+#contactBox textarea {
+    width: 85%;
+}
+#contactBox textarea:focus {
+    background: #eee;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+#contactBox input:focus {
+    background: #eee;
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+#contactBox label {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#contactBoxSubmitDiv {
+    width: 60%;
+    margin-right: 23%;
+}
+#contactBoxSubmitDiv button {
+    margin-left: auto;
+}
+
+#footerDiv {
+    height: 15vh;
+    padding-top: 20px;
+    border-top: 2px solid black;
+}
+#footerDiv p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+#footerLink {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footerLink a {
+    transition: transform 0.5s, fill 0.3s;
+}
+#footerLink a:hover {
+    fill: #000080;
+    transform: translateY(5px);
+}
+
