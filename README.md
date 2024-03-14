@@ -11,6 +11,11 @@ https://www.16personalities.com<br>
 https://www.verywellmind.com/the-myers-briggs-type-indicator-2795583<br>
 https://high5test.com<br>
 <br>
+Updates
+- fixed two links in the landing page<br>
+- fixed empty footer links<br>
+- fixed ISTJ key characteristics typo<br>
+<br>
 Bugs<br>
 - scroll to top button stuck after clicking it once<br>
 - the two links in the landing page doesn't work<br>
