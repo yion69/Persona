@@ -17,5 +17,6 @@ Bugs<br>
 - the input field in contact page is compressed as well as the fonts<br>
 - have to put links to the footer anchors<br>
 - grammatical errors and typos <br>
+- Typo in ISTJ key characteristics<br>
 <br>
 PS. Constructive feedbacks and suggestions are welcomed<br>
